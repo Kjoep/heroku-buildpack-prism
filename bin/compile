@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+mkdir $1/bin
+wget -O $1/bin/prism https://github.com/stoplightio/prism/releases/download/v0.6.21/prism_linux_amd64
+chmod +x $1/bin/prism
